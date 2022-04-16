@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "order_id": { "type": "string"},
+    "product_name": { "type": "string"},
+    "status": { "type": "string"},
+    "created": { "type": "string"},
+    "last_update": { "type": "string"}
+  },
+  "required": ["product_name"],
+  "additionalProperties": false
+}
